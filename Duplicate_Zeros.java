@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution_04 {
+public class Duplicate_Zeros {
     public static int[] duplicateZeros(int[] arr) {
         for(int i=0; i<arr.length; i++) {
             if(arr[i] == 0) {
@@ -15,7 +15,7 @@ public class Solution_04 {
 
     public static void main(String[] args) {
         int nums[] = {1, 0, 2, 3, 0, 4, 5, 0};
-        int[] result = duplicateZeros(nums);
-        System.out.println("Original array: " + Arrays.toString(duplicateZeros(nums)));
+        duplicateZeros(nums);
+        System.out.println("New array: " + Arrays.toString(nums));
     }
 }
