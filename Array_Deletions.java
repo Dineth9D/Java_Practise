@@ -16,4 +16,4 @@ public class Array_Deletions {
             System.out.println("Index " + i + " contains " + intArray[i]);
         }
     }
-}
+}0
