@@ -13,7 +13,8 @@ public class Array_Deletions {
         }
 
         for (int i = 0; i < length; i++) {
-            System.out.println("Index " + i + " contains " + intArray[i]);
+            // System.out.println("Index " + i + " contains " + intArray[i]);
+            System.out.println(intArray[i]);
         }
     }
-}0
+}
